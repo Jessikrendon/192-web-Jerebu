@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +24,7 @@
 
 
 .mainmenu {
+    height: 55px;
     background: black;
     display: flex;
     flex-direction: row;
@@ -29,6 +32,8 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid white;
+
+    box-sizing: border-box;
 }
 
 .mainmenu nav {
@@ -68,4 +73,88 @@
     text-decoration: none;
 
     cursor: pointer;
+}
+
+.hamburguer_menu {
+    background: black;
+    width: 280px;
+    text-align: left;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+}
+.hamburguer_menu p{
+    color: white;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+
+.hamburguer_menu p b{
+    font-size: 12px;
+
+}
+.hamburguer_menu p b span{
+    text-decoration: underline;
+}
+.hamburguer_menu .hamburguer_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: white 1px solid;
+    padding: 20px 0;
+}
+.hamburguer_menu .hamburguer_container h1 {
+    font-family: 'Alegreya Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 190%;
+    /* identical to box height, or 38px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.hamburguer_menu .hamburguer_container .close_icon svg path{
+    fill: white;
+}
+.hamburguer_menu .hamburguer_container nav{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.hamburguer_menu .hamburguer_container nav ul li{
+    list-style: none;
+    text-align: left;
+}
+.hamburguer_menu .hamburguer_container nav ul li a{
+    color: inherit;
+    font-size: 14px;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+
+}
+.social_media li a{
+    width: 25px;
+    height: 25px;
+    background: white;
 }
