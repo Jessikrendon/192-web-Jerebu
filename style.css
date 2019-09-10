@@ -1,3 +1,71 @@
-h1 {
-    color: blue;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hamburguer_icon{
+    cursor: pointer;
+}
+
+.hamburguer_icon svg path{
+    fill: white;
+}
+
+.search_icon{
+    cursor: pointer;
+}
+
+.search_icon svg path{
+    fill: white;
+}
+
+
+.mainmenu {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.mainmenu nav {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.mainmenu nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainmenu nav ul li {
+    list-style: none;
+    margin: 0 30px
+}
+
+.mainmenu nav ul li a {
+
+    color: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+
+    text-decoration: none;
+
+    cursor: pointer;
 }
