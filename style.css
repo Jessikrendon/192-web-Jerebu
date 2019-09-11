@@ -6,11 +6,11 @@
     padding: 0;
 }
 
-.hamburguer_icon{
+.mainheader__menu{
     cursor: pointer;
 }
 
-.hamburguer_icon svg path{
+.mainheader__menu svg path{
     fill: white;
 }
 
@@ -23,7 +23,7 @@
 }
 
 
-.mainmenu {
+.mainheader {
     position: fixed;
     top: 0;
     width: 100vw;
@@ -35,38 +35,35 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid white;
-
+    
     box-sizing: border-box;
     z-index: 10;
-
+    
+    justify-content: space-between;
+    padding: 10px 30px"
 }
 
-.mainmenu nav {
-
+.mainheader{
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 190%;
-
+    
     text-align: center;
-
+    
     color: #FFFFFF;
-
+    
 }
 
-.mainmenu nav ul{
+.mainheader__mainnav {
     display: flex;
     flex-direction: row;
 }
 
-.mainmenu nav ul li {
-    list-style: none;
-    margin: 0 30px
-}
-
-.mainmenu nav ul li a {
-
+.mainheader__mainnav {
+    
     color: inherit;
     text-align: inherit;
     line-height: inherit;
@@ -74,9 +71,9 @@
     font-weight: inherit;
     font-style: inherit;
     font-family: inherit;
-
+    
     text-decoration: none;
-
+    
     cursor: pointer;
 }
 
@@ -92,19 +89,19 @@
 }
 .hamburguer_menu p{
     color: white;
-
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
     line-height: 14px;
-
+    
     color: #FFFFFF;
 }
 
 .hamburguer_menu p b{
     font-size: 12px;
-
+    
 }
 .hamburguer_menu p b span{
     text-decoration: underline;
@@ -124,11 +121,11 @@
     font-size: 20px;
     line-height: 190%;
     /* identical to box height, or 38px */
-
+    
     text-align: center;
-
+    
     color: #FFFFFF;
-
+    
 }
 .hamburguer_menu .hamburguer_container .close_icon svg path{
     fill: white;
@@ -139,9 +136,9 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 190%;
-
+    
     text-align: center;
-
+    
     color: #FFFFFF;
 }
 
@@ -157,7 +154,7 @@
 .social_media {
     display: flex;
     flex-direction: row;
-
+    
 }
 .social_media li a{
     width: 25px;
@@ -224,9 +221,9 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-
+    
     color: #FFFFFF;
-
+    
     margin: 30px 0;
 }
 
@@ -236,15 +233,15 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 190%;
-
+    
     text-align: center;
-
+    
     color: #000000;
-
+    
     background: #FFFFFF;
     border: 3px solid #000000;
     border-radius: 6px;
-
+    
     padding: 0 20px;
 }
 
@@ -255,9 +252,9 @@
     background-position: center; 
     height: 560px;
     width: 100vw;
-
+    
     background-color: black;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -271,8 +268,8 @@
     font-size: 48px;
     line-height: 91.5%;
     /* or 44px */
-
-
+    
+    
     color: #FFFFFF;
 }
 
@@ -283,7 +280,7 @@
     font-size: 24px;
     line-height: 33px;
     /* identical to box height */
-
-
+    
+    
     color: #FFFFFF;
 }
